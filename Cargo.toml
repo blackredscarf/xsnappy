@@ -1,0 +1,13 @@
+[package]
+name = "xsnappy"
+version = "0.1.0"
+authors = ["blackredscarf <blackredscarf@gmail.com>"]
+edition = "2018"
+description="Snappy compression algorithm implemented in Rust"
+homepage = "https://github.com/blackredscarf/xsnappy"
+repository = "https://github.com/blackredscarf/xsnappy"
+keywords = ["snappy", "compress", "compression", "decompress", "decompression"]
+license = "MIT"
+exclude=["csnappy", "snappy_test"]
+
+[dependencies]
