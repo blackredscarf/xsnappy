@@ -2,6 +2,11 @@
 This is a Snappy compression algorithm library written in Rust. It is ported from [Go implementation](https://github.com/golang/snappy) with similar interface. 
 
 ## Usage
+Add this to your `Cargo.toml`:
+```toml
+[dependencies]
+xsnappy="0.1.0"
+```
 Compress:
 ```rust
 use xsnappy::{max_encode_len, encode};
